@@ -1,0 +1,77 @@
+The following are install instructions to install the necessary packages to get us start, 
+this is manually install everything, I used this way, but you can also use some existing 
+Scientific Python distributions, which contains most of the scientific tools you will use
+in the future. You can checkout here: http://www.scipy.org/install.html
+
+##########################################################################################
+##############Now we are talking about how to install packages by yourself################
+
+(1) Install Homebrew (it is much better than macports/fink)
+check out here: http://brew.sh/
+
+Note: You'll need to add the Homebrew directory to the front of your system path, in order
+to ensure that Homebrew-installed software is given priority over any other versions. To 
+do so, open the .bash_profile in your user directory (that's the ~ directory or, more 
+verbosely, /Users/[your_user_name]) and add the following line (if you don't have a 
+.bash_profile, just create one with any text editor): export PATH=/usr/local/bin:$PATH
+
+(2) Install python (if you don't have one)
+$brew install python
+
+(3) Install gfortran (if you don't have one)
+$brew install gfortran
+
+(4) Install pip (if you have Homebrew installed, pip installs with python in step 2)
+$easy_install pip 
+
+##############Now let's install the python packages we need ##############################
+(5) Install ipython
+$pip install ipython
+
+(6) Install numpy 
+$pip install numpy
+
+(7) Install scipy (need gfortran installed)
+$pip install scipy
+
+(8) Install matplotlib (plotting lib)
+$pip install matplotlib
+
+(9) Install pandas (this is a powerful data structures for data analysis)
+$pip install pandas
+
+(10) Install obspy
+$pip install obspy
+
+Note: the latest verion of obspy is 0.9.0, which updated in Jan 2014, if you installed 
+your obspy before that date, update your obspy to the latest version. You can check the 
+version of your obspy by typing the following in python:
+>>>import obspy
+>>>obspy.__version__
+
+(assume you that you installed obspy using pip before, so, just do 'pip install -U obspy' 
+to update to the latest version). 
+
+##########################################################################################
+You might need update the $PYTHONPATH in your .bash_profile, add more path in the future,
+if you installed the package, say you want to check numpy, but when you type 'import numpy'
+in python, if you run across an error 'no module named numpy', most of the time, it is 
+because this python path issue, just check that. 
+export PYTHONPATH=/usr/local/lib/python:$PYTHONPATH
+
+check out the following link how to install in details:
+http://www.lowindata.com/2013/installing-scientific-python-on-mac-os-x/
+##########################################################################################
+
+After you installed all the packages, a couple of ways to check if you installed all these
+packages:
+(1) just into python, and type 'import numpy' (or other packages)
+(2) using pip to show all the installed packages:
+$pip list
+
+Let me know if you have any question. 
+
+
+
+
+
