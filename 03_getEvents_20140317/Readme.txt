@@ -15,7 +15,7 @@ Goal this time:
 (1) Find the catalog of the earthquakes
 (2) Find the arrival time of different phases of the 
     events in the catalog with respect to the stations
-(3) Download data based on the time window calcuated
+(3) Download data based on the time window calculated
     above
 
 
@@ -31,8 +31,12 @@ Obspy_getCMT.ipynb - this is the ipython notebook
     contains the script to get the moment tensors
     and plot on the map from global CMT, not totally
     finish this time, we may come back to this topic
-    next time. Note: if you want to run the script in 
-    this notebook, then you need install BeautifulSoup,
+    next time. The idea here is to query from the 
+    global CMT online, and plot the found historical
+    moment tensor solutions in one region. 
+    
+    Note: if you want to run the script in this 
+    notebook, then you need install BeautifulSoup,
     run the following command:
     'sudo pip install BeautifulSoup'
 
