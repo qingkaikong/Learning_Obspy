@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE metadata SYSTEM "http://www.fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Kathy Haller, Richard Dart, Susan Rhea</origin>
+				<pubdate>1 January 2004</pubdate>
+				<title Sync="TRUE">QuaternaryFaults_gmapsnewlinks</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<othercit>use Interactive Mapping Service to extract data from web service</othercit>
+				<onlink Sync="TRUE">\\IGSKCICGASGIS\gisdata\Qfaultsupdated\QuaternaryFaults_gmapsnewlinks.shp</onlink>
+				<ftname Sync="TRUE">QuaternaryFaults_gmapsnewlinks</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>This data set contains locations and information on faults and associated folds in the United States that are believed to be sources of M&gt;6 earthquakes during the Quaternary (the past 1,600,000 years). On the website, maps of these geologic structures are linked to a database containing detailed descriptions and references. The database is intended to be the USGS?s archive for historic and ancient earthquake sources used in current and future probabilistic seismic-hazard analyses. 
+
+Our website presents for the first time a single source that summarizes important information on paleoseismic (ancient earthquake) parameters. These data are compiled from thousands of journal articles, maps, theses, and other documents, as referenced herein. The database is designed to serve a variety of needs, both in terms of the user community and methods of delivering the data.</abstract>
+			<purpose>Starting in the early 1970s, mainly in response to national concerns about the siting of nuclear reactors, scientists needed to locate active and Quaternary faults and document their characteristics. 
+The descriptions contain information on geographic, geologic, and paleoseismic parameters that are deemed critical to making geologic-based assessments of seismic hazards. In addition, we provide narrative comments that clarify, justify, or expound upon these parameters. Many of the comments in the database provide justification for the paleoseismic parameters that were chosen to characterize the faults and folds.</purpose>
+			<supplinf>details about each fault are available through the online database at http://qfaults.cr.usgs.gov/</supplinf>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>2003</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>In work</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-155.957874</westbc>
+				<eastbc Sync="TRUE">-98.290397</eastbc>
+				<northbc Sync="TRUE">48.883733</northbc>
+				<southbc Sync="TRUE">18.766227</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">-155.957874</leftbc><rightbc Sync="TRUE">-98.290397</rightbc><bottombc Sync="TRUE">18.766227</bottombc><topbc Sync="TRUE">48.883733</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+			</theme>
+			<theme>
+				<themekt>USGS Enterprise Web Thesaurus (http://www.usgs.gov/library/eweb_thes.html)</themekt>
+				<themekey>earthquake</themekey>
+				<themekey>earthquake preparedness</themekey>
+				<themekey>paleoseismology</themekey>
+				<themekey>neotectonic processes</themekey>
+			</theme>
+			<place>
+				<placekey>United States</placekey>
+			</place>
+		</keywords>
+		<accconst>no restrictions.</accconst>
+		<useconst>Citations to the database are requested. 
+U.S. Geological Survey (and supporting agency if appropriate-see list below), 2006, Quaternary fault and fold database for the United States, accessed DATE, from USGS web site: http//earthquakes.usgs.gov/regional/qfaults/.
+
+List of cooperators:
+Alaska............ Alaska Department of Natural Resources
+Arizona........... Arizona Geological Survey
+California......... California Geological Survey
+Colorado.......... Colorado Geological Survey
+Idaho............... Idaho Geological Survey
+Illinois.............. Illinois State Geological Survey,
+Louisiana......... Louisiana Geological Survey
+Montana.......... Montana Bureau of Mines and Geology
+Nevada............ Nevada Bureau of Mines and Geology
+New Mexico..... New Mexico Bureau of Mines and Mineral Resources
+Texas.............. Texas Bureau of Economic Geology,
+Utah................ Utah Geological Survey
+
+For example, I want to reference information I got about a fault in New Mexico on Jan 9, 2006.. My reference would look like:
+
+U.S. Geological Survey and New Mexico Bureau of Mines and Mineral Resources, 2006, Quaternary fault and fold database for the United States, accessed Jan 9, 2006, from USGS web site: http//earthquake.usgs.gov/regional/qfaults/.
+
+</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>USGS</cntorg>
+					<cntper>Quaternary faults web team</cntper>
+				</cntorgp>
+				<cntemail>qfaults@usgs.gov</cntemail>
+				<hours>9-3, M-F</hours>
+				<cntinst>Email checked weekly. Phone if immediate need, Kathy Haller 303-273-8616.</cntinst>
+			</cntinfo>
+		</ptcontac>
+		<datacred>The project coordinator is Michael Machette (USGS). The database structure was created by Kathy Haller (USGS) and an early version of the web interface and search engines were created by Larry Mayer (formerly of the University of Miami at Oxford, Ohio). The GIS data was engineered and maintained by Richard Dart (USGS). The fault and fold traces were digitized mainly by Richard Dart, with help from Dean Hancock*. Static maps were made by Susan Rhea (USGS), Richard Dart, and Damon Sather*. The graphic web browser and ArcIMS module (still under development) were created by Susan Rhea, Damon Sather*, Karen Morgan*, and John Cox*. Much of the reference database and entry of data into the text database was done with the able assistance of Philly Morrow, Meredith Frey, and Kelli Clark (*, all former student interns or contractors to the USGS).
+
+Compilers and cooperators are listed on the web page (http://earthquake.usgs.gov/qfaults/contrib.html). Compilers are those who described faults or folds for the database. Cooperators are those who assisted with the development of digital fault data (traces), the database structure, or the geographical information system (GIS) interfaces.</datacred>
+		<native Sync="TRUE">Microsoft Windows 2000 Version 5.2 (Build 3790) Service Pack 2; ESRI ArcCatalog 9.3.1.1850</native>
+		<natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc>Starting in the early 1970s, mainly in response to national concerns about the siting of nuclear reactors, scientists needed to locate active and Quaternary faults and document their characteristics. This broad research initiative resulted in new maps and studies of Quaternary faults. State (Jennings, 1975; Witkind, 1975; 1975; 1975; 1976; Menges and Pearthree, 1983), regional (Nakata and others, 1982), and National (Howard and others, 1978) maps were compiled to show the location and relative timing of major faults. These map compilations, however, did not provide much supporting data. Subsequent state-scale compilations, such as those by Johns and others, (1982), Stickney and Bartholemew (1987), and Hecker (1993) provided some supporting database and were the first true fault compilations. The Quaternary fault and fold data for the United States has relied heavily on the past contributions, and on new efforts by State geological surveys and the U.S. Geological Survey. 
+The most recent effort began in 1990 in support of the International Lithosphere Program (ILP), which formed Working Group II-2. Its main objective was to compile a World Map of Active Faults (Vladimir Trifonov, chairman). In 1992, the USGS agreed to help compile maps and fault descriptions for countries in the Western Hemisphere (North, Central, and South America, as well as Australia and New Zealand). This work continues to date, with many of the compilations for Central and South America countries having been published. 
+
+In 1993, the U.S. Geological Survey began developing a database for Quaternary faults and folds for the United States in earnest, largely supported by NEHRP but with significant support from many State surveys. This product is more robust than the ILP products, mainly owing to the vast amount of data that has become available within the U.S. in the past 20-30 years and the importance that this data plays in regional and national seismic-hazard assessments (Petersen and others, 1996; Frankel and others, 1996). 
+
+For this compilation, we have limited our compilation to synthesis of published literature relevant to the United States. Our definition of published literature includes typical sources (journals and maps), as well as M.S. theses and Ph.D. dissertations, governmental contract reports (which includes many NEHRP-sponsored studies), abstracts, and open-file (preliminary) reports. We generally do not cite unpublished field mapping, field notes, and other gray-literature reports that are not generally available to the public. The data presented in the compilation are extensively referenced using the standard USGS reference style, with the exception of attaching a unique number to each cited reference for convenience. This numeric identifier allows us to clearly cite multiple-same year publications for authors. 
+
+For a complete list of contributors, see &lt;http://earthquake.usgs.gov/qfaults/contrib.html&gt; 
+</procdesc>
+				<srcused>q:\alldata_dd\usawork\fltarc</srcused>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">Q:\alldata_dd\usawork\fltarc</srcused><date Sync="TRUE">20070905</date><time Sync="TRUE">14104600</time></procstep><procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">E:\imsdata\qfaults\fltarc.xml</srcused><date Sync="TRUE">20070905</date><time Sync="TRUE">14143800</time></procstep><srcinfo><srccite><citeinfo><origin>Numerous</origin><title>Numerous</title><serinfo><sername>Numerous</sername></serinfo></citeinfo></srccite></srcinfo><procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">E:\qfault\qfdata20080401\fltline.xml</srcused><date Sync="TRUE">20080407</date><time Sync="TRUE">14220500</time></procstep><procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">Q:\QFault2008\metadata\fltline.xml</srcused><date Sync="TRUE">20080818</date><time Sync="TRUE">14122400</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">E:\qfault\qfdata20080820\fltlineV3</srcused><date Sync="TRUE">20081208</date><time Sync="TRUE">16472100</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE"></srcused><date Sync="TRUE">20081208</date><time Sync="TRUE">16520600</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE"></srcused><date Sync="TRUE">20081208</date><time Sync="TRUE">16533200</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">E:\qfault\qfdata20080820\fltlineV3_PrjRedefined_84</srcused><date Sync="TRUE">20081210</date><time Sync="TRUE">16074700</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">E:\qfault\qfdata20080820\fltlineV3_PrjRedefined_84Copy</srcused><date Sync="TRUE">20081211</date><time Sync="TRUE">10271500</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">E:\qfault\qfdata20081209\fltlineV3_PrjRedefined_84Copy</srcused><date Sync="TRUE">20081211</date><time Sync="TRUE">10274800</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">\\Igskcicgfsgis\GISDATA\qfault\QFault2008\QFaultData.gdb</srcused><date Sync="TRUE">20090128</date><time Sync="TRUE">14294300</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">\\igskcicgfsgis\gisdata\qfault\QFault2008\QFaultData.gdb</srcused><procdate Sync="TRUE">20090921</procdate><proctime Sync="TRUE">09340200</proctime></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">\\igskcicgfsgis\gisdata\qfault\QFault2008\QFaultData.gdb</srcused><procdate Sync="TRUE">20090921</procdate><proctime Sync="TRUE">10333300</proctime></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">\\igskcicgfsgis\gisdata\qfault\QFault2008\QFaultData.gdb</srcused><procdate Sync="TRUE">20090924</procdate><proctime Sync="TRUE">10484900</proctime></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">\\igskcicgasgis\gisdata\Qfaultsupdated\QFaultData.gdb</srcused><procdate Sync="TRUE">20101026</procdate><proctime Sync="TRUE">08151000</proctime></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">Server=oracledev01.cr.usgs.gov; Service=5151; User=hc_owner; Version=SDE.DEFAULT</srcused><procdate Sync="TRUE">20101026</procdate><proctime Sync="TRUE">11372000</proctime></procstep></lineage>
+		<attracc><attraccr>Fault characteristics, even where known in detail, are reported in broad categories (for example "age less than 1,600,000 years"). The textual database contains more specific information about each fault where details were available in published literature. 
+</attraccr></attracc><logic>Due to substantial differences in the geological setting and tectonic activity, the central and eastern United States appear to have fewer faults active in the Quaternary. This is partly a real phenomena (the western US has more tectonic activity) and partly a detection problem. For example, the glacial sediments that cover much of the eastern midwest states conceal the evidence we would use to infer movement along underlying faults in the Quaternary</logic><complete>The database does not include faults in Alaska or Hawaii at present. California database is incomplete, not all faults are included. </complete><posacc><horizpa><horizpar>Locations of faults were taken from published literature; these investigations were carried out at a variety of scales of observation, hence some faults will be located more precisely and accurately than others. In general the locations are accurate as observed on a 1:250,000 scale map, or approximately 450 feet. 
+</horizpar></horizpa></posacc></dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="QuaternaryFaults_gmapsnewlinks">
+				<sdtstype Sync="TRUE">String</sdtstype>
+				<ptvctcnt Sync="TRUE">0</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm>
+				<sdtstype>Complete chain</sdtstype>
+				<ptvctcnt>47870</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm>
+				<sdtstype>Point</sdtstype>
+				<ptvctcnt>4</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm>
+				<sdtstype>Label point</sdtstype>
+				<ptvctcnt>4187</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm>
+				<sdtstype>Label point</sdtstype>
+				<ptvctcnt>206</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="QuaternaryFaults_gmapsnewlinks"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polyline</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<geograph>
+				<latres Sync="TRUE">0.000000</latres>
+				<longres Sync="TRUE">0.000000</longres>
+				<geogunit Sync="TRUE">Decimal degrees</geogunit>
+			</geograph>
+			<geodetic>
+				<horizdn Sync="TRUE">D_WGS_1984</horizdn>
+				<ellips Sync="TRUE">WGS_1984</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257224</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_WGS_1984</geogcsn></cordsysn></horizsys>
+		<vertdef><altsys><altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc><altres Sync="TRUE">1.000000</altres></altsys></vertdef></spref>
+	<eainfo>
+		<detailed Name="QuaternaryFaults_gmapsnewlinks">
+			<attr><attrlabl Sync="TRUE">SLIPDIRECT</attrlabl><attalias Sync="TRUE">SLIPDIRECT</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">5</attwidth></attr><attr><attrlabl Sync="TRUE">DIPDIRECTI</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">15</attwidth><attrdef Sync="TRUE">Length of feature in internal units.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv></attr><enttyp>
+				<enttypl Sync="TRUE">QuaternaryFaults_gmapsnewlinks</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc></enttyp>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">NAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">80</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr><attrlabl Sync="TRUE">NAME</attrlabl><attalias Sync="TRUE">CODE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">80</attwidth><attrdef>fault name in database</attrdef><attrdefs>online database</attrdefs><attrdomv><udom>feature name</udom></attrdomv></attr>
+			<attr>
+				<attrlabl>CODE</attrlabl>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth><attrdef>Value used for symbolizing faults</attrdef><attrdomv><edom><edomvds>Value used for symbolizing faults; composed using a strict format
+in which the numerals or letters in a particular position within
+the code have consistent meanings. 
+&gt;First digit: fault visibility code
+&gt;1 = Well constrained
+&gt;2 = Moderately constrained
+&gt;3 = Inferred
+&gt;
+&gt;Second digit: fault age code
+&gt;1 = Historic
+&gt;2 = Holocene &lt; 15,000 years
+&gt;3 = late Quaternary &lt; 130,000 years
+&gt;4 = mid to late Quaternary &lt; 750,000 years
+&gt;5 = Quaternary &lt; 1,600,000 years
+&gt;6 = class B
+&gt;7 = unknown
+&gt;0 = unknown
+&gt;
+&gt;Third digit: fault slip rate code
+&gt;1 = &gt;5 mm/year
+&gt;2 = 1-5
+&gt;3 = .2 - 1
+&gt;4 = &lt; .2 mm/year
+</edomvds></edom></attrdomv><attalias Sync="TRUE">NUM</attalias></attr>
+			<attr><attrlabl Sync="TRUE">NUM</attrlabl><attalias Sync="TRUE">AGE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">6</attwidth><attrdef>fault index number tied to online database </attrdef><attrdomv><udom>feature id number</udom></attrdomv></attr>
+			<attr><attrlabl Sync="TRUE">AGE</attrlabl><attalias Sync="TRUE">FTYPE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">12</attwidth><attrdomv><edom><edomv>&lt;1,600,000</edomv></edom><edom><edomv>&lt;750,000</edomv></edom><edom><edomv>&lt;130,000</edomv></edom><edom><edomv>&lt;10,000</edomv></edom><edom><edomv>&lt;150</edomv></edom><edom><edomv>Class B</edomv><edomvd>age suspect or older than Quaternary</edomvd></edom><edom><edomv>incomplete</edomv><edomvd>age not determined</edomvd></edom><edom><edomv>Unknown</edomv><edomvd>age not able to be determined</edomvd></edom></attrdomv><attrdef>general age of last suspected movement</attrdef></attr>
+			<attr><attrlabl Sync="TRUE">FTYPE</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">25</attwidth><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">SHAPE</attrlabl><attalias Sync="TRUE">ACODE</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">9</attwidth><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv><atprecis Sync="TRUE">9</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ACODE</attrlabl><attalias Sync="TRUE">SLIPRATE</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth><attrdef>age code used for plotting in IMS, see attribute CODE </attrdef></attr>
+			<attr><attrlabl Sync="TRUE">SLIPRATE</attrlabl><attalias Sync="TRUE">SLIPSENSE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">7</attwidth></attr>
+			<attr><attrlabl Sync="TRUE">SLIPSENSE</attrlabl><attalias Sync="TRUE">FCODE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">5</attwidth><attrdomv><edom><edomv>Incomplete</edomv></edom><edom><edomv>Normal</edomv></edom><edom><edomv>Reverse</edomv></edom><edom><edomv>Left lateral</edomv></edom><edom><edomv>Right lateral</edomv></edom><edom><edomv>Thrust</edomv></edom></attrdomv><attrdef>direction of slip</attrdef></attr>
+			<attr><attrlabl Sync="TRUE">FCODE</attrlabl><attalias Sync="TRUE">SLIPCODE</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr><attr><attrlabl Sync="TRUE">SLIPCODE</attrlabl><attalias Sync="TRUE">CFM_URL</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth><attrdef>slip code for plotting, see CODE</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr>
+			<attr><attrlabl Sync="TRUE">MAPPEDSCAL</attrlabl><attalias Sync="TRUE">MAPPEDSCAL</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">8</attwidth></attr><attr><attrlabl Sync="TRUE">SECONDARYS</attrlabl><attalias Sync="TRUE">SECONDARYS</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">5</attwidth></attr><attr><attrlabl Sync="TRUE">CFM_URL</attrlabl><attalias Sync="TRUE">DIPDIRECTI</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr><attr><attrlabl Sync="TRUE">SHAPE_Leng</attrlabl><attalias Sync="TRUE">SHAPE_Leng</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr></detailed>
+	</eainfo>
+	<distinfo>
+		<resdesc>Downloadable Data</resdesc>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize>15.525</transize>
+					<dssize Sync="TRUE">0.000</dssize></digtinfo>
+			</digform>
+		</stdorder>
+		<distrib><cntinfo><cntorgp><cntorg>USGS, Geologic Hazards Team</cntorg></cntorgp><cntvoice>303-273-8639</cntvoice><cntemail>rhea@usgs.gov</cntemail><hours>workdays</hours><cntinst>email best</cntinst></cntinfo></distrib></distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20101026</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>REQUIRED: The organization responsible for the metadata information.</cntorg>
+					<cntper>REQUIRED: The person responsible for the metadata information.</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>REQUIRED: The mailing and/or physical address for the organization or individual.</addrtype>
+					<city>REQUIRED: The city of the address.</city>
+					<state>REQUIRED: The state or province of the address.</state>
+					<postal>REQUIRED: The ZIP or other postal code of the address.</postal>
+				</cntaddr>
+				<cntvoice>REQUIRED: The telephone number by which individuals can speak to the organization or individual.</cntvoice>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><CreaDate>20101026</CreaDate><CreaTime>11372000</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20101026</SyncDate><SyncTime>11542300</SyncTime><ModDate>20101026</ModDate><ModTime>11542300</ModTime><DataProperties><lineage><Process Name="FeatureClassToFeatureClass_3" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20080818" Time="142250">FeatureClassToFeatureClass Q:\QFault2008\QFaultData.gdb\USQfaultLine "Database Connections\imsowner on oracledev01.sde\IMSOWNER.QFAULTDATA" fltline_new # "NAME NAME true true false 80 Text 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine,NAME,-1,-1;CODE CODE true true false 2 Short 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine,CODE,-1,-1;NUM NUM true true false 6 Text 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine,NUM,-1,-1;AGE AGE true true false 12 Text 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine,AGE,-1,-1;ACODE ACODE true true false 2 Short 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine,ACODE,-1,-1;SLIPRATE SLIPRATE true true false 7 Text 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine,SLIPRATE,-1,-1;SLIPCODE SLIPCODE true true false 2 Short 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine,SLIPCODE,-1,-1;SLIPSENSE SLIPSENSE true true false 5 Text 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine,SLIPSENSE,-1,-1;DIPDIRECTION DIPDIRECTION true true false 15 Text 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine,DIPDIRECTION,-1,-1;SLIPDIRECTION SLIPDIRECTION true true false 5 Text 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine,SLIPDIRECTION,-1,-1;SE_ANNO_CAD_DATA SE_ANNO_CAD_DATA true true false 0 Blob 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine,SE_ANNO_CAD_DATA,-1,-1;FCODE FCODE true true false 2 Short 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine,FCODE,-1,-1;FTYPE FTYPE true true false 25 Text 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine,FTYPE,-1,-1" # "Database Connections\imsowner on oracledev01.sde\IMSOWNER.QFAULTDATA\IMSOWNER.fltline_new"</Process><Process Name="FeatureClassToFeatureClass_1" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20080820" Time="084958">FeatureClassToFeatureClass "Database Connections\imsowner on oracledev01.sde\IMSOWNER.QFAULTDATA\IMSOWNER.fltline" E:\qfault\qfdata20080401 fltlineV3.shp # "NAME NAME true true false 80 Text 0 0 ,First,#,Database Connections\imsowner on oracledev01.sde\IMSOWNER.QFAULTDATA\IMSOWNER.fltline,NAME,-1,-1;CODE CODE true true false 2 Short 0 5 ,First,#,Database Connections\imsowner on oracledev01.sde\IMSOWNER.QFAULTDATA\IMSOWNER.fltline,CODE,-1,-1;NUM NUM true true false 6 Text 0 0 ,First,#,Database Connections\imsowner on oracledev01.sde\IMSOWNER.QFAULTDATA\IMSOWNER.fltline,NUM,-1,-1;AGE AGE true true false 12 Text 0 0 ,First,#,Database Connections\imsowner on oracledev01.sde\IMSOWNER.QFAULTDATA\IMSOWNER.fltline,AGE,-1,-1;ACODE ACODE true true false 2 Short 0 5 ,First,#,Database Connections\imsowner on oracledev01.sde\IMSOWNER.QFAULTDATA\IMSOWNER.fltline,ACODE,-1,-1;SLIPRATE SLIPRATE true true false 7 Text 0 0 ,First,#,Database Connections\imsowner on oracledev01.sde\IMSOWNER.QFAULTDATA\IMSOWNER.fltline,SLIPRATE,-1,-1;SLIPCODE SLIPCODE true true false 2 Short 0 5 ,First,#,Database Connections\imsowner on oracledev01.sde\IMSOWNER.QFAULTDATA\IMSOWNER.fltline,SLIPCODE,-1,-1;SLIPSENSE SLIPSENSE true true false 5 Text 0 0 ,First,#,Database Connections\imsowner on oracledev01.sde\IMSOWNER.QFAULTDATA\IMSOWNER.fltline,SLIPSENSE,-1,-1;DIPDIRECTI DIPDIRECTION true true false 15 Text 0 0 ,First,#,Database Connections\imsowner on oracledev01.sde\IMSOWNER.QFAULTDATA\IMSOWNER.fltline,DIPDIRECTION,-1,-1;SLIPDIRECT SLIPDIRECTION true true false 5 Text 0 0 ,First,#,Database Connections\imsowner on oracledev01.sde\IMSOWNER.QFAULTDATA\IMSOWNER.fltline,SLIPDIRECTION,-1,-1;FCODE FCODE true true false 2 Short 0 5 ,First,#,Database Connections\imsowner on oracledev01.sde\IMSOWNER.QFAULTDATA\IMSOWNER.fltline,FCODE,-1,-1;FTYPE FTYPE true true false 25 Text 0 0 ,First,#,Database Connections\imsowner on oracledev01.sde\IMSOWNER.QFAULTDATA\IMSOWNER.fltline,FTYPE,-1,-1" # E:\qfault\qfdata20080401\fltlineV3.shp</Process><Process Name="DefineProjection_15" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DefineProjection" Date="20081208" Time="164847">DefineProjection E:\qfault\qfdata20080820\fltlineV3_PrjRedefined.shp GEOGCS['GCS_North_American_1927',DATUM['D_North_American_1927',SPHEROID['Clarke_1866',6378206.4,294.9786982]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]],VERTCS['WGS_1984',DATUM['D_WGS_1984',SPHEROID['WGS_1984',6378137.0,298.257223563]],PARAMETER['Vertical_Shift',0.0],PARAMETER['Direction',1.0],UNIT['Meter',1.0]] E:\qfault\qfdata20080820\fltlineV3_PrjRedefined.shp</Process><Process Name="DefineProjection_16" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DefineProjection" Date="20081208" Time="165021">DefineProjection E:\qfault\qfdata20080820\fltlineV3_PrjRedefined.shp GEOGCS['GCS_North_American_1927',DATUM['D_North_American_1927',SPHEROID['Clarke_1866',6378206.4,294.9786982]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]],VERTCS['WGS_1984',DATUM['D_WGS_1984',SPHEROID['WGS_1984',6378137.0,298.257223563]],PARAMETER['Vertical_Shift',0.0],PARAMETER['Direction',1.0],UNIT['Meter',1.0]] E:\qfault\qfdata20080820\fltlineV3_PrjRedefined.shp</Process><Process Name="Project_17" ToolSource="C:\Documents and Settings\rhea.GOLDEN0\Application Data\ESRI\ArcToolbox\My Toolboxes\1 SusansTools.tbx\Project" Date="20081208" Time="165206">Project E:\qfault\qfdata20080820\fltlineV3_PrjRedefined.shp E:\qfault\qfdata20080820\fltlineV3_PrjRedefined_Proje.shp GEOGCS['GCS_North_American_1983',DATUM['D_North_American_1983',SPHEROID['GRS_1980',6378137.0,298.257222101]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]] NAD_1927_To_NAD_1983_NADCON GEOGCS['GCS_North_American_1927',DATUM['D_North_American_1927',SPHEROID['Clarke_1866',6378206.4,294.9786982]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]]</Process><Process Name="Project_18" ToolSource="C:\Documents and Settings\rhea.GOLDEN0\Application Data\ESRI\ArcToolbox\My Toolboxes\1 SusansTools.tbx\Project" Date="20081208" Time="165332">Project E:\qfault\qfdata20080820\fltlineV3_PrjRedefined_83.shp E:\qfault\qfdata20080820\fltlineV3_PrjRedefined_84.shp GEOGCS['GCS_WGS_1984',DATUM['D_WGS_1984',SPHEROID['WGS_1984',6378137.0,298.257223563]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]] NAD_1983_To_WGS_1984_1 GEOGCS['GCS_North_American_1983',DATUM['D_North_American_1983',SPHEROID['GRS_1980',6378137.0,298.257222101]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]]</Process><Process Name="Dissolve_9" ToolSource="C:\Documents and Settings\rhea.GOLDEN0\Application Data\ESRI\ArcToolbox\My Toolboxes\1 SusansTools.tbx\Dissolve" Date="20081212" Time="104823">Dissolve E:\qfault\qfdata20081209\fltline.shp E:\qfault\qfdata20081209\fltline_Dissolve1.shp NAME;CODE;NUM;AGE;ACODE;SLIPRATE;SLIPCODE;SLIPSENSE;DIPDIRECTI;SLIPDIRECT;FCODE;FTYPE # MULTI_PART</Process><Process Name="FeatureClassToFeatureClass_17" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20081212" Time="110718">FeatureClassToFeatureClass E:\qfault\qfdata20081209\fltline.shp Q:\QFault2008\QFaultData.gdb USQfaultLine # "NAME NAME true false false 80 Text 0 0 ,First,#,E:\qfault\qfdata20081209\fltline.shp,NAME,-1,-1;CODE CODE true false false 5 Long 0 5 ,First,#,E:\qfault\qfdata20081209\fltline.shp,CODE,-1,-1;NUM NUM true false false 6 Text 0 0 ,First,#,E:\qfault\qfdata20081209\fltline.shp,NUM,-1,-1;AGE AGE true false false 12 Text 0 0 ,First,#,E:\qfault\qfdata20081209\fltline.shp,AGE,-1,-1;ACODE ACODE true false false 5 Long 0 5 ,First,#,E:\qfault\qfdata20081209\fltline.shp,ACODE,-1,-1;SLIPRATE SLIPRATE true false false 7 Text 0 0 ,First,#,E:\qfault\qfdata20081209\fltline.shp,SLIPRATE,-1,-1;SLIPCODE SLIPCODE true false false 5 Long 0 5 ,First,#,E:\qfault\qfdata20081209\fltline.shp,SLIPCODE,-1,-1;SLIPSENSE SLIPSENSE true false false 5 Text 0 0 ,First,#,E:\qfault\qfdata20081209\fltline.shp,SLIPSENSE,-1,-1;DIPDIRECTI DIPDIRECTI true false false 15 Text 0 0 ,First,#,E:\qfault\qfdata20081209\fltline.shp,DIPDIRECTI,-1,-1;SLIPDIRECT SLIPDIRECT true false false 5 Text 0 0 ,First,#,E:\qfault\qfdata20081209\fltline.shp,SLIPDIRECT,-1,-1;FCODE FCODE true false false 5 Long 0 5 ,First,#,E:\qfault\qfdata20081209\fltline.shp,FCODE,-1,-1;FTYPE FTYPE true false false 25 Text 0 0 ,First,#,E:\qfault\qfdata20081209\fltline.shp,FTYPE,-1,-1" # Q:\QFault2008\QFaultData.gdb\USQfaultLine</Process><Process Name="FeatureClassToFeatureClass_1" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20090225" Time="092630">FeatureClassToFeatureClass Q:\QFault2008\QFaultData.gdb\USQfaultLine20090128 Q:\QFault2008\QFaultData.gdb USQfaultLine # "NAME NAME true true false 80 Text 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine20090128,NAME,-1,-1;CODE CODE true true false 4 Long 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine20090128,CODE,-1,-1;NUM NUM true true false 6 Text 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine20090128,NUM,-1,-1;AGE AGE true true false 12 Text 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine20090128,AGE,-1,-1;ACODE ACODE true true false 4 Long 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine20090128,ACODE,-1,-1;SLIPRATE SLIPRATE true true false 7 Text 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine20090128,SLIPRATE,-1,-1;SLIPCODE SLIPCODE true true false 4 Long 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine20090128,SLIPCODE,-1,-1;SLIPSENSE SLIPSENSE true true false 5 Text 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine20090128,SLIPSENSE,-1,-1;DIPDIRECTI DIPDIRECTI true true false 15 Text 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine20090128,DIPDIRECTI,-1,-1;SLIPDIRECT SLIPDIRECT true true false 5 Text 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine20090128,SLIPDIRECT,-1,-1;FCODE FCODE true true false 4 Long 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine20090128,FCODE,-1,-1;FTYPE FTYPE true true false 25 Text 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine20090128,FTYPE,-1,-1;Shape_Length Shape_Length false true true 8 Double 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine20090128,Shape_Length,-1,-1" # Q:\QFault2008\QFaultData.gdb\USQfaultLine</Process><Process ToolSource="C:\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20090407" Time="102817">FeatureClassToFeatureClass Q:\QFault2008\QFaultData.gdb\USQfaultLine Q:\QFault2008\QFaultData.gdb USQfaultline20090407 # "NAME 'NAME' true true false 80 Text 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine,NAME,-1,-1;CODE 'CODE' true true false 4 Long 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine,CODE,-1,-1;NUM 'NUM' true true false 6 Text 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine,NUM,-1,-1;AGE 'AGE' true true false 12 Text 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine,AGE,-1,-1;ACODE 'ACODE' true true false 4 Long 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine,ACODE,-1,-1;SLIPRATE 'SLIPRATE' true true false 7 Text 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine,SLIPRATE,-1,-1;SLIPCODE 'SLIPCODE' true true false 4 Long 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine,SLIPCODE,-1,-1;SLIPSENSE 'SLIPSENSE' true true false 5 Text 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine,SLIPSENSE,-1,-1;DIPDIRECTI 'DIPDIRECTI' true true false 15 Text 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine,DIPDIRECTI,-1,-1;SLIPDIRECT 'SLIPDIRECT' true true false 5 Text 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine,SLIPDIRECT,-1,-1;FCODE 'FCODE' true true false 4 Long 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine,FCODE,-1,-1;FTYPE 'FTYPE' true true false 25 Text 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine,FTYPE,-1,-1;Shape_Length 'Shape_Length' false true true 8 Double 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine,Shape_Length,-1,-1" # Q:\QFault2008\QFaultData.gdb\USQfaultline20090407</Process><Process ToolSource="C:\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20090408" Time="111339">FeatureClassToFeatureClass Q:\QFault2008\QFaultData.gdb\USQfaultline20090407 Q:\QFault2008\QFaultData.gdb USQfaultLine # "NAME 'NAME' true true false 80 Text 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultline20090407,NAME,-1,-1;CODE 'CODE' true true false 4 Long 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultline20090407,CODE,-1,-1;NUM 'NUM' true true false 6 Text 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultline20090407,NUM,-1,-1;AGE 'AGE' true true false 12 Text 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultline20090407,AGE,-1,-1;ACODE 'ACODE' true true false 4 Long 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultline20090407,ACODE,-1,-1;SLIPRATE 'SLIPRATE' true true false 7 Text 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultline20090407,SLIPRATE,-1,-1;SLIPCODE 'SLIPCODE' true true false 4 Long 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultline20090407,SLIPCODE,-1,-1;SLIPSENSE 'SLIPSENSE' true true false 5 Text 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultline20090407,SLIPSENSE,-1,-1;DIPDIRECTI 'DIPDIRECTI' true true false 15 Text 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultline20090407,DIPDIRECTI,-1,-1;SLIPDIRECT 'SLIPDIRECT' true true false 5 Text 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultline20090407,SLIPDIRECT,-1,-1;FCODE 'FCODE' true true false 4 Long 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultline20090407,FCODE,-1,-1;FTYPE 'FTYPE' true true false 25 Text 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultline20090407,FTYPE,-1,-1;Shape_Length 'Shape_Length' false true true 8 Double 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultline20090407,Shape_Length,-1,-1" # Q:\QFault2008\QFaultData.gdb\USQfaultLine</Process><Process ToolSource="C:\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\AssignDomainToField" Date="20090408" Time="112015">AssignDomainToField Q:\QFault2008\QFaultData.gdb\USQfaultLine MAPPEDSCALE MappedScale # Q:\QFault2008\QFaultData.gdb\USQfaultLine</Process><Process ToolSource="C:\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20090527" Time="113041">FeatureClassToFeatureClass Q:\QFault2008\QFaultData.gdb\USQfaultLine Q:\QFault2008\QFaultData.gdb UsQfltLine20090527 # "NAME 'NAME' true true false 80 Text 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine,NAME,-1,-1;CODE 'CODE' true true false 4 Long 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine,CODE,-1,-1;NUM 'NUM' true true false 6 Text 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine,NUM,-1,-1;AGE 'AGE' true true false 12 Text 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine,AGE,-1,-1;ACODE 'ACODE' true true false 4 Long 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine,ACODE,-1,-1;SLIPRATE 'SLIPRATE' true true false 7 Text 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine,SLIPRATE,-1,-1;SLIPCODE 'SLIPCODE' true true false 4 Long 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine,SLIPCODE,-1,-1;SLIPSENSE 'SLIPSENSE' true true false 5 Text 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine,SLIPSENSE,-1,-1;DIPDIRECTI 'DIPDIRECTI' true true false 15 Text 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine,DIPDIRECTI,-1,-1;SLIPDIRECT 'SLIPDIRECT' true true false 5 Text 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine,SLIPDIRECT,-1,-1;FCODE 'FCODE' true true false 4 Long 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine,FCODE,-1,-1;FTYPE 'FTYPE' true true false 25 Text 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine,FTYPE,-1,-1;Shape_Length 'Shape_Length' false true true 8 Double 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine,Shape_Length,-1,-1;MAPPEDSCALE 'MAPPEDSCALE' true true false 8 Text 0 0 ,First,#,Q:\QFault2008\QFaultData.gdb\USQfaultLine,MAPPEDSCALE,-1,-1" # Q:\QFault2008\QFaultData.gdb\UsQfltLine20090527</Process><Process ToolSource="C:\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\Merge" Date="20090921" Time="094603">Merge UsQfltLine20090921 Q:\QFault2008\QFaultData.gdb\UsQfltLine20090921_Merge "NAME 'NAME' true true false 80 Text 0 0 ,First,#,UsQfltLine20090921,NAME,-1,-1;CODE 'CODE' true true false 4 Long 0 0 ,First,#,UsQfltLine20090921,CODE,-1,-1;NUM 'NUM' true true false 6 Text 0 0 ,First,#,UsQfltLine20090921,NUM,-1,-1;AGE 'AGE' true true false 12 Text 0 0 ,First,#,UsQfltLine20090921,AGE,-1,-1;ACODE 'ACODE' true true false 4 Long 0 0 ,First,#,UsQfltLine20090921,ACODE,-1,-1;SLIPRATE 'SLIPRATE' true true false 7 Text 0 0 ,First,#,UsQfltLine20090921,SLIPRATE,-1,-1;SLIPCODE 'SLIPCODE' true true false 4 Long 0 0 ,First,#,UsQfltLine20090921,SLIPCODE,-1,-1;SLIPSENSE 'SLIPSENSE' true true false 5 Text 0 0 ,First,#,UsQfltLine20090921,SLIPSENSE,-1,-1;DIPDIRECTI 'DIPDIRECTI' true true false 15 Text 0 0 ,First,#,UsQfltLine20090921,DIPDIRECTI,-1,-1;SLIPDIRECT 'SLIPDIRECT' true true false 5 Text 0 0 ,First,#,UsQfltLine20090921,SLIPDIRECT,-1,-1;FCODE 'FCODE' true true false 4 Long 0 0 ,First,#,UsQfltLine20090921,FCODE,-1,-1;FTYPE 'FTYPE' true true false 25 Text 0 0 ,First,#,UsQfltLine20090921,FTYPE,-1,-1;MAPPEDSCALE 'MAPPEDSCALE' true true false 8 Text 0 0 ,First,#,UsQfltLine20090921,MAPPEDSCALE,-1,-1"</Process><Process ToolSource="C:\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20101026" Time="115426">FeatureClassToFeatureClass C:\gisdata\Qfaultsupdated\QFaultData.gdb\UsQfltLine20090924new C:\gisdata\Qfaultsupdated QuaternaryFaults_gmapsnewlinks.shp # "NAME 'NAME' true true false 80 Text 0 0 ,First,#,C:\gisdata\Qfaultsupdated\QFaultData.gdb\UsQfltLine20090924new,NAME,-1,-1;CODE 'CODE' true true false 4 Long 0 0 ,First,#,C:\gisdata\Qfaultsupdated\QFaultData.gdb\UsQfltLine20090924new,CODE,-1,-1;NUM 'NUM' true true false 6 Text 0 0 ,First,#,C:\gisdata\Qfaultsupdated\QFaultData.gdb\UsQfltLine20090924new,NUM,-1,-1;AGE 'AGE' true true false 12 Text 0 0 ,First,#,C:\gisdata\Qfaultsupdated\QFaultData.gdb\UsQfltLine20090924new,AGE,-1,-1;ACODE 'ACODE' true true false 4 Long 0 0 ,First,#,C:\gisdata\Qfaultsupdated\QFaultData.gdb\UsQfltLine20090924new,ACODE,-1,-1;SLIPRATE 'SLIPRATE' true true false 7 Text 0 0 ,First,#,C:\gisdata\Qfaultsupdated\QFaultData.gdb\UsQfltLine20090924new,SLIPRATE,-1,-1;SLIPCODE 'SLIPCODE' true true false 4 Long 0 0 ,First,#,C:\gisdata\Qfaultsupdated\QFaultData.gdb\UsQfltLine20090924new,SLIPCODE,-1,-1;SLIPSENSE 'SLIPSENSE' true true false 5 Text 0 0 ,First,#,C:\gisdata\Qfaultsupdated\QFaultData.gdb\UsQfltLine20090924new,SLIPSENSE,-1,-1;DIPDIRECTI 'DIPDIRECTI' true true false 15 Text 0 0 ,First,#,C:\gisdata\Qfaultsupdated\QFaultData.gdb\UsQfltLine20090924new,DIPDIRECTI,-1,-1;SLIPDIRECT 'SLIPDIRECT' true true false 5 Text 0 0 ,First,#,C:\gisdata\Qfaultsupdated\QFaultData.gdb\UsQfltLine20090924new,SLIPDIRECT,-1,-1;FCODE 'FCODE' true true false 4 Long 0 0 ,First,#,C:\gisdata\Qfaultsupdated\QFaultData.gdb\UsQfltLine20090924new,FCODE,-1,-1;FTYPE 'FTYPE' true true false 25 Text 0 0 ,First,#,C:\gisdata\Qfaultsupdated\QFaultData.gdb\UsQfltLine20090924new,FTYPE,-1,-1;MAPPEDSCAL 'MAPPEDSCALE' true true false 8 Text 0 0 ,First,#,C:\gisdata\Qfaultsupdated\QFaultData.gdb\UsQfltLine20090924new,MAPPEDSCALE,-1,-1;SECONDARYS 'SecondarySlipSense' true true false 5 Text 0 0 ,First,#,C:\gisdata\Qfaultsupdated\QFaultData.gdb\UsQfltLine20090924new,SECONDARYSLIPSENSE,-1,-1;CFM_URL 'CFM_URL' true true false 500 Text 0 0 ,First,#,C:\gisdata\Qfaultsupdated\QFaultData.gdb\UsQfltLine20090924new,CFM_URL,-1,-1;SHAPE_Leng 'SHAPE_Length' false true true 8 Double 0 0 ,First,#,C:\gisdata\Qfaultsupdated\QFaultData.gdb\UsQfltLine20090924new,SHAPE_Length,-1,-1" # C:\gisdata\Qfaultsupdated\QuaternaryFaults_gmapsnewlinks.shp</Process></lineage></DataProperties><MetaID>{0EF9C213-38BD-4665-A2A8-76486A87B897}</MetaID></Esri><distInfo><distributor><distorTran><onLineSrc><linkage Sync="TRUE">file://\\IGSKCICGASGIS\gisdata\Qfaultsupdated\QuaternaryFaults_gmapsnewlinks.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol><orDesc Sync="TRUE">002</orDesc></onLineSrc><transSize Sync="TRUE">0.000</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows 2000 Version 5.2 (Build 3790) Service Pack 2; ESRI ArcCatalog 9.3.1.1850</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">QuaternaryFaults_gmapsnewlinks</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">-155.957874</westBL><eastBL Sync="TRUE">-98.290397</eastBL><northBL Sync="TRUE">48.883733</northBL><southBL Sync="TRUE">18.766227</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-155.957874</westBL><eastBL Sync="TRUE">-98.290397</eastBL><northBL Sync="TRUE">48.883733</northBL><southBL Sync="TRUE">18.766227</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">GCS_WGS_1984</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="QuaternaryFaults_gmapsnewlinks"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20101026</mdDateSt></metadata>
