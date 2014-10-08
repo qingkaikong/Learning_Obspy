@@ -154,3 +154,56 @@ def zDetectpy(a, nsta):
     Z = (sta - a_mean) / a_std
     return Z
     
+def carlSTATrig(a, nsta, nlta, ratio, quiet):
+    """
+    Computes the carlSTATrig characteristic function.
+
+    eta = star - (ratio * ltar) - abs(sta - lta) - quiet
+
+    :type a: NumPy ndarray
+    :param a: Seismic Trace
+    :type nsta: Int
+    :param nsta: Length of short time average window in samples
+    :type nlta: Int
+    :param nlta: Length of long time average window in samples
+    :type ration: Float
+    :param ratio: as ratio gets smaller, carlSTATrig gets more sensitive
+    :type quiet: Float
+    :param quiet: as quiet gets smaller, carlSTATrig gets more sensitive
+    :rtype: NumPy ndarray
+    :return: Characteristic function of CarlStaTrig
+    """
+    m = len(a)
+    #
+    sta = np.zeros(len(a), dtype='float64')
+    lta = np.zeros(len(a), dtype='float64')
+    star = np.zeros(len(a), dtype='float64')
+    ltar = np.zeros(len(a), dtype='float64')
+    pad_sta = np.zeros(nsta)
+    pad_lta = np.zeros(nlta)  # avoid for 0 division 0/1=0
+    #
+    # compute the short time average (STA)
+    for i in xrange(nsta):  # window size to smooth over
+        sta += np.concatenate((pad_sta, a[i:m - nsta + i]))
+    sta /= nsta
+    #
+    # compute the long time average (LTA), 8 sec average over sta
+    for i in xrange(nlta):  # window size to smooth over
+        lta += np.concatenate((pad_lta, sta[i:m - nlta + i]))
+    lta /= nlta
+    lta = np.concatenate((np.zeros(1), lta))[:m]  # XXX ???
+    #
+    # compute star, average of abs diff between trace and lta
+    for i in xrange(nsta):  # window size to smooth over
+        star += np.concatenate((pad_sta,
+                               abs(a[i:m - nsta + i] - lta[i:m - nsta + i])))
+    star /= nsta
+    #
+    # compute ltar, 8 sec average over star
+    for i in xrange(nlta):  # window size to smooth over
+        ltar += np.concatenate((pad_lta, star[i:m - nlta + i]))
+    ltar /= nlta
+    #
+    eta = star - (ratio * ltar) - abs(sta - lta) - quiet
+    eta[:nlta] = -1.0
+    return eta
