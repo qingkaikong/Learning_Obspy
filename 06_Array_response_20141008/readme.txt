@@ -1,0 +1,1 @@
+This folder contains my exploration of the Array response. 
