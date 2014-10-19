@@ -23,6 +23,7 @@ import urllib2
 from collections import OrderedDict
 
 def get_hist_mt(t1, t2, llat = '-90', ulat = '90', llon = '-180', ulon = '180', 
+    lmw = 0, umw = 10,
     evla = None, evlo = None, step = 2.0, list = '6'):
     yr = t1.year
     mo = t1.month
@@ -52,8 +53,8 @@ def get_hist_mt(t1, t2, llat = '-90', ulat = '90', llon = '-180', ulon = '180',
     param['ojday'] = '1'
     
     param['nday'] = '1'
-    param['lmw'] = '0'
-    param['umw'] = '10'
+    param['lmw'] = str(lmw)
+    param['umw'] = str(umw)
     param['lms'] = '0'
     param['ums'] = '10'
     param['lmb'] = '0'
@@ -96,8 +97,9 @@ def get_hist_mt(t1, t2, llat = '-90', ulat = '90', llon = '-180', ulon = '180',
 
     def convertString(mecs_str):
         return map(float, mecs_str.split()[:9])
-
+        
     psmeca = np.array(map(convertString, mecs_str))
+    
     mat['psmeca'] = psmeca
     mat['ind'] = ind
     mat['url'] = url
@@ -106,82 +108,84 @@ def get_hist_mt(t1, t2, llat = '-90', ulat = '90', llon = '-180', ulon = '180',
     return mat
     
 def plot_hist_mt(psmeca_dict, figsize = (16,24), mt_size = 10, pretty = False, resolution='l'):
+    if psmeca_dict['psmeca'] != []:
+        psmeca = psmeca_dict['psmeca']
+        #get the latitudes, longitudes, and the 6 independent component
+        lats = psmeca[:,1]
+        lons = psmeca[:,0]
+        focmecs = psmeca[:,3:9]
+        depths =  psmeca[:,2]    
+        (llat, ulat, llon, ulon) = psmeca_dict['range'] 
+        evla = psmeca_dict['evloc'][0]
+        evlo = psmeca_dict['evloc'][1]
 
-    psmeca = psmeca_dict['psmeca']
-    #get the latitudes, longitudes, and the 6 independent component
-    lats = psmeca[:,1]
-    lons = psmeca[:,0]
-    focmecs = psmeca[:,3:9]
-    depths =  psmeca[:,2]    
-    (llat, ulat, llon, ulon) = psmeca_dict['range'] 
-    evla = psmeca_dict['evloc'][0]
-    evlo = psmeca_dict['evloc'][1]
-
-    plt.figure(figsize=figsize)
-    m = Basemap(projection='cyl', lon_0=142.36929, lat_0=38.3215, 
-                llcrnrlon=llon,llcrnrlat=llat,urcrnrlon=ulon,urcrnrlat=ulat,resolution=resolution)
+        plt.figure(figsize=figsize)
+        m = Basemap(projection='cyl', lon_0=142.36929, lat_0=38.3215, 
+                    llcrnrlon=llon,llcrnrlat=llat,urcrnrlon=ulon,urcrnrlat=ulat,resolution=resolution)
     
-    m.drawcoastlines()
-    m.drawmapboundary()
+        m.drawcoastlines()
+        m.drawmapboundary()
     
-    if pretty:    
-        m.etopo()
-    else:
-        m.fillcontinents()
-    
-    llat = float(llat)
-    ulat = float(ulat)
-    llon = float(llon)
-    ulon = float(ulon)
-    
-    m.drawparallels(np.arange(llat, ulat, (ulat - llat) / 4.0), labels=[1,0,0,0])
-    m.drawmeridians(np.arange(llon, ulon, (ulon - llon) / 4.0), labels=[0,0,0,1])   
-    
-    ax = plt.gca()
-    
-    x, y = m(lons, lats)
-    
-    for i in range(len(focmecs)):
-        '''
-        if x[i] < 0:
-            x[i] = 360 + x[i]
-        '''
-        
-        if depths[i] <= 50:
-            color = '#FFA500'
-            #label_
-        elif depths[i] > 50 and depths [i] <= 100:
-            color = 'g'
-        elif depths[i] > 100 and depths [i] <= 200:
-            color = 'b'
+        if pretty:    
+            m.etopo()
         else:
-            color = 'r'
-        
-        index = np.where(focmecs[i] == 0)[0]
-        
-        #note here, if the mrr is zero, then you will have an error
-        #so, change this to a very small number 
-        if focmecs[i][0] == 0:
-            focmecs[i][0] = 0.001
-        
-        try:
-            b = Beach(focmecs[i], xy=(x[i], y[i]),width=mt_size, linewidth=1, facecolor=color)
-        except:
-            pass
-            
-        b.set_zorder(10)
-        ax.add_collection(b)
-        
-    x_0, y_0 = m(evlo, evla)
-    m.plot(x_0, y_0, 'r*', markersize=25) 
+            m.fillcontinents()
     
-    circ1 = Line2D([0], [0], linestyle="none", marker="o", alpha=0.6, markersize=10, markerfacecolor="#FFA500")
-    circ2 = Line2D([0], [0], linestyle="none", marker="o", alpha=0.6, markersize=10, markerfacecolor="g")
-    circ3 = Line2D([0], [0], linestyle="none", marker="o", alpha=0.6, markersize=10, markerfacecolor="b")
-    circ4 = Line2D([0], [0], linestyle="none", marker="o", alpha=0.6, markersize=10, markerfacecolor="r")
-    plt.legend((circ1, circ2, circ3, circ4), ("depth $\leq$ 50 km", "50 km $<$ depth $\leq$ 100 km", 
-                    "100 km $<$ depth $\leq$ 200 km", "200 km $<$ depth"), numpoints=1, loc=3)
-    plt.show()
+        llat = float(llat)
+        ulat = float(ulat)
+        llon = float(llon)
+        ulon = float(ulon)
+    
+        m.drawparallels(np.arange(llat, ulat, (ulat - llat) / 4.0), labels=[1,0,0,0])
+        m.drawmeridians(np.arange(llon, ulon, (ulon - llon) / 4.0), labels=[0,0,0,1])   
+    
+        ax = plt.gca()
+    
+        x, y = m(lons, lats)
+    
+        for i in range(len(focmecs)):
+            '''
+            if x[i] < 0:
+                x[i] = 360 + x[i]
+            '''
+        
+            if depths[i] <= 50:
+                color = '#FFA500'
+                #label_
+            elif depths[i] > 50 and depths [i] <= 100:
+                color = 'g'
+            elif depths[i] > 100 and depths [i] <= 200:
+                color = 'b'
+            else:
+                color = 'r'
+        
+            index = np.where(focmecs[i] == 0)[0]
+        
+            #note here, if the mrr is zero, then you will have an error
+            #so, change this to a very small number 
+            if focmecs[i][0] == 0:
+                focmecs[i][0] = 0.001
+        
+            try:
+                b = Beach(focmecs[i], xy=(x[i], y[i]),width=mt_size, linewidth=1, facecolor=color)
+            except:
+                pass
+            
+            b.set_zorder(10)
+            ax.add_collection(b)
+        
+        x_0, y_0 = m(evlo, evla)
+        m.plot(x_0, y_0, 'r*', markersize=25) 
+    
+        circ1 = Line2D([0], [0], linestyle="none", marker="o", alpha=0.6, markersize=10, markerfacecolor="#FFA500")
+        circ2 = Line2D([0], [0], linestyle="none", marker="o", alpha=0.6, markersize=10, markerfacecolor="g")
+        circ3 = Line2D([0], [0], linestyle="none", marker="o", alpha=0.6, markersize=10, markerfacecolor="b")
+        circ4 = Line2D([0], [0], linestyle="none", marker="o", alpha=0.6, markersize=10, markerfacecolor="r")
+        plt.legend((circ1, circ2, circ3, circ4), ("depth $\leq$ 50 km", "50 km $<$ depth $\leq$ 100 km", 
+                        "100 km $<$ depth $\leq$ 200 km", "200 km $<$ depth"), numpoints=1, loc=3)
+        plt.show()
+    else:
+        print 'No historical MT found!'
 
 def eq2df(earthquakes):
 
