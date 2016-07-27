@@ -630,6 +630,8 @@ def plot_mt(earthquakes, mt, event_id, location = None, M_above = 5.0, show_abov
         drawStates = True
     else:
         location = None
+
+    print earthquakes,mt,event_id
         
         
     times = [event[6] for event in earthquakes]  
